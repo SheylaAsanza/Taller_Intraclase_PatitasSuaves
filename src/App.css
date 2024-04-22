@@ -1,0 +1,84 @@
+.App {
+  text-align: center;
+  background-image: url('https://cdn.discordapp.com/attachments/1159212210090942469/1231741472265474158/depositphotos_51352119-stock-illustration-background-with-cats-paw-print.png?ex=66380fa3&is=66259aa3&hm=71469851aa862ead8f505e1442a98cbc5add12675fee7a0640e7b86a7e7efaae&');
+  background-size: auto;
+  background-position: center;
+}
+
+.App-header {
+  background-image: url('https://cdn.discordapp.com/attachments/1159212210090942469/1231466261343502378/c01545bce4462df4d4c3977c151c99cf-conjunto-de-dibujos-animados-de-razas-de-gato.webp?ex=66370f54&is=66249a54&hm=20837485ceb830488ddddcd7884175162c30dfb6c5f56b6aaec74a389df1c75b&');
+  background-size: cover;
+  background-position: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.social-icon {
+  margin-right: 10px;
+  /* Puedes ajustar este valor según el espacio que quieras agregar entre los iconos */
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+/* .card-img-top {
+  width: 200px; 
+  height: auto;
+  margin: 0 auto; 
+  display: block; 
+} */
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+h1{
+  font-size: 120px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-weight: 900;
+}
+
+h5{
+  font-size: 40px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card-text{
+  font-size: 20px;
+}
+
+.font-italic{
+  font-size: 18px;
+}
+
+.parrafo2{
+  font-size: 18px;
+}
